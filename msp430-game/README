@@ -1,0 +1,27 @@
+Assignment 6 -- Guessing Digits
+
+You will make a system that will combine your MSP430 with various peripherals: the bubble display, the rgbled, and the speaker. You will have some general specifications, and suggestions for wiring schemes. 
+
+You will use a menu (libemb allows you to build a menu easily) that will prompt the user for using the system. You can design the user interaction yourself. 
+
+The basic idea is that the bubble display will run through a sequence for numbers, presumably starting at 000 and running to 999 (decimal) and back around. You will have to manage the display to effect this 'meter'. It should run quickly enough that stopping it on a particular 3 digit value presents some real time challenge. 
+
+A pushbutton interrupt will be installed that will stop the meter when the interrupt is processed. The system will be able to start running again with either a menu choice or another pushbutton event.
+
+The goal is to stop the meter on values which are a) prime , b) a power of 2, and c) divisible by 2. A 'win' consists of successfully stopping on each of a) , b) and c) . 
+
+Feedback to the user for each of these is both an rgb color (you will mix two of the three colors because we don't have enough wires to run all three colors) and a sound. When you have finally managed to stop the meter on the three categories the user will be presented the option of playing again. 
+
+Deadlines and deliverables.
+---------------------------
+
+You will first write a small 'design' for your system. Wiring scheme, sub-tasks, and development schedule should be part of your document. This should be pushed to the repository by Tuesday, December 1. 
+
+The final system will be demonstrated during your final exam, along with final documentation for the system, discussing capabilities, final design, etc. 
+
+General Comments 
+================
+
+You have two weeks for developing this. Please do not wait because there are several issues which need to be addressed in an orderly fashion. You do not want to be attempting too much in the last few days. Your final exam is on either Monday or Tuesday of finals week. We will be spending the remainder of our time with this in mind. May I also remind you that I will be available during the Senior Design day in a room to be announced.  
+
+
