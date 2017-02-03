@@ -1,0 +1,39 @@
+% CityPairs.csv 
+%    TestPlan file, where lines starting with % are comments.
+%
+% Each data record here is:   start,destination
+%
+% TEST CASE:  invalid city name as start & as destination
+Kalamazoo,Berlin
+Munich,GrandRapids
+%
+% TEST CASE:  start = destination
+Rome,Rome
+%
+% TEST CASE:  start & destination flipped -->> should get 
+%    same distance for both since it's an undirected graph
+Paris,Warsaw
+Warsaw,Paris
+Brussels,Belgrade
+Belgrade,Brussels
+Naples,Warsaw
+Warsaw,Naples
+%
+% TEST CASE:  path is just a single edge
+Amsterdam,Brussels
+Amsterdam,Bern
+%
+% TEST CASE:  other normal test cases, some close together,
+%    some a long way apart
+Belgrade,Prague
+Brussels,Budapest
+Rome,Berlin
+Vienna,Belgrade
+Lisbon,Warsaw
+Vienna,Belgrade
+% TEST CASE:  cities on islands (Ireland & Great Britain)
+%    so there'll be NO path possible since there are no roads
+%    from mainland Europe to these countries
+London,Paris
+Budapest,Dublin
+Dublin,Budapest

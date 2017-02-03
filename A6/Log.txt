@@ -1,0 +1,115 @@
+# # # # # # # # # # # # 
+Kalamazoo (-1) TO Berlin (2)
+ERROR – one city is NOT on this map
+# # # # # # # # # # # # 
+Munich (11) TO GrandRapids (-1)
+ERROR – one city is NOT on this map
+# # # # # # # # # # # # 
+Rome (15) TO Rome (15)
+DISTANCE:  0
+PATH:  Rome > Rome
+TRACE OF TARGETS:  ROM
+# TARGETS:  1
+# # # # # # # # # # # # 
+Paris (13) TO Warsaw (18)
+DISTANCE:  1768
+PATH:  Paris > Genoa > Trieste > Budapest > Warsaw
+TRACE OF TARGETS:  PAR BRU GEN MAD BRN ROM TRI NAP LIS MUN VIE BUD BEL PRG BER HAM WAR
+# TARGETS:  17
+# # # # # # # # # # # # 
+Warsaw (18) TO Paris (13)
+DISTANCE:  1768
+PATH:  Warsaw > Budapest > Trieste > Genoa > Paris
+TRACE OF TARGETS:  WAR BER BUD VIE PRG HAM MUN BEL COP TRI BRN GEN ROM NAP PAR
+# TARGETS:  15
+# # # # # # # # # # # # 
+Brussels (4) TO Belgrade (1)
+DISTANCE:  1504
+PATH:  Brussels > Genoa > Trieste > Belgrade
+TRACE OF TARGETS:  BRU PAR GEN MAD BRN ROM TRI NAP MUN LIS VIE BUD BEL
+# TARGETS:  13
+# # # # # # # # # # # # 
+Belgrade (1) TO Brussels (4)
+DISTANCE:  1504
+PATH:  Belgrade > Trieste > Genoa > Brussels
+TRACE OF TARGETS:  BEL BUD TRI VIE PRG WAR MUN GEN BER ROM BRN NAP HAM COP PAR BRU
+# TARGETS:  16
+# # # # # # # # # # # # 
+Naples (12) TO Warsaw (18)
+DISTANCE:  1354
+PATH:  Naples > Rome > Trieste > Budapest > Warsaw
+TRACE OF TARGETS:  NAP ROM GEN TRI MUN BRN PRG VIE BUD BEL PAR BER BRU HAM WAR
+# TARGETS:  15
+# # # # # # # # # # # # 
+Warsaw (18) TO Naples (12)
+DISTANCE:  1354
+PATH:  Warsaw > Budapest > Trieste > Rome > Naples
+TRACE OF TARGETS:  WAR BER BUD VIE PRG HAM MUN BEL COP TRI BRN GEN ROM NAP
+# TARGETS:  14
+# # # # # # # # # # # # 
+Amsterdam (0) TO Brussels (4)
+DISTANCE:  164
+PATH:  Amsterdam > Brussels
+TRACE OF TARGETS:  AMS BRU
+# TARGETS:  2
+# # # # # # # # # # # # 
+Amsterdam (0) TO Bern (3)
+DISTANCE:  558
+PATH:  Amsterdam > Bern
+TRACE OF TARGETS:  AMS BRU HAM PAR COP BER MUN BRN
+# TARGETS:  8
+# # # # # # # # # # # # 
+Belgrade (1) TO Prague (14)
+DISTANCE:  603
+PATH:  Belgrade > Budapest > Vienna > Prague
+TRACE OF TARGETS:  BEL BUD TRI VIE PRG
+# TARGETS:  5
+# # # # # # # # # # # # 
+Brussels (4) TO Budapest (5)
+DISTANCE:  1485
+PATH:  Brussels > Genoa > Trieste > Budapest
+TRACE OF TARGETS:  BRU PAR GEN MAD BRN ROM TRI NAP MUN LIS VIE BUD
+# TARGETS:  12
+# # # # # # # # # # # # 
+Rome (15) TO Berlin (2)
+DISTANCE:  975
+PATH:  Rome > Munich > Prague > Berlin
+TRACE OF TARGETS:  ROM NAP GEN TRI MUN BRN PRG VIE BUD BEL PAR BER
+# TARGETS:  12
+# # # # # # # # # # # # 
+Vienna (17) TO Belgrade (1)
+DISTANCE:  418
+PATH:  Vienna > Budapest > Belgrade
+TRACE OF TARGETS:  VIE BUD PRG MUN TRI BER BEL
+# TARGETS:  7
+# # # # # # # # # # # # 
+Lisbon (9) TO Warsaw (18)
+DISTANCE:  2404
+PATH:  Lisbon > Madrid > Bern > Vienna > Warsaw
+TRACE OF TARGETS:  LIS MAD PAR GEN BRU BRN ROM TRI NAP MUN PRG VIE BUD BEL BER HAM WAR
+# TARGETS:  17
+# # # # # # # # # # # # 
+Vienna (17) TO Belgrade (1)
+DISTANCE:  418
+PATH:  Vienna > Budapest > Belgrade
+TRACE OF TARGETS:  VIE BUD PRG MUN TRI BER BEL
+# TARGETS:  7
+# # # # # # # # # # # # 
+London (20) TO Paris (13)
+DISTANCE:  ?
+PATH:  SORRY – can NOT get to destination city from start city
+TRACE OF TARGETS: . . .
+# TARGETS: . . .
+# # # # # # # # # # # # 
+Budapest (5) TO Dublin (19)
+DISTANCE:  ?
+PATH:  SORRY – can NOT get to destination city from start city
+TRACE OF TARGETS: . . .
+# TARGETS: . . .
+# # # # # # # # # # # # 
+Dublin (19) TO Budapest (5)
+DISTANCE:  ?
+PATH:  SORRY – can NOT get to destination city from start city
+TRACE OF TARGETS: . . .
+# TARGETS: . . .
+# # # # # # # # # # # # 

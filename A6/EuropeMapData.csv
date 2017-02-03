@@ -1,0 +1,73 @@
+% EuropeMapData.txt
+%
+% Map & edge weights from "The Thinking Computer: Mind Inside Matter", Raphael 1976
+%   with several modifications (I added Dublin & London. . . both on islands).
+%
+% U for UNdirected graph, N=21
+U,21
+%
+% CityName,CityCode
+% And the order of the cities in this file dictates what their nodeNumbers are,
+%    i.e., Amsterdam is 0, Belgrade is 1, . . ., London is 20
+Amsterdam,AMS
+Belgrade,BEL
+Berlin,BER
+Bern,BRN
+Brussels,BRU
+Budapest,BUD
+Copenhagen,COP
+Genoa,GEN
+Hamburg,HAM
+Lisbon,LIS
+Madrid,MAD
+Munich,MUN
+Naples,NAP
+Paris,PAR
+Prague,PRG
+Rome,ROM
+Trieste,TRI
+Vienna,VIE
+Warsaw,WAR
+Dublin,DUB
+London,LON
+%
+% NOTE:  Node numbering starts at 0 (i.e., for Amsterdam)
+% Each record:  cityNum1,cityNum2,roadDistance
+%
+0,3,558
+0,4,164
+0,8,338
+0,11,526
+1,5,263
+1,16,403
+1,17,501
+2,3,628
+2,8,182
+2,14,219
+2,18,345
+3,7,304
+3,10,1104
+3,11,311
+3,16,489
+4,3,497
+4,7,740
+4,13,225
+5,16,384
+5,17,155
+5,18,394
+6,8,180
+7,10,951
+7,13,629
+7,15,328
+7,16,361
+9,10,339
+13,10,805
+14,11,174
+15,11,582
+17,11,280
+15,12,134
+17,14,185
+18,14,479
+16,15,442
+17,16,317
+18,17,464
